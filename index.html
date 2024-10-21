@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="htmlbox codebox">
+        <div class="head">
+            <div class="lefthead">
+              <img src="html.png" alt="htmlpic" height="25px">
+             HTML
+            </div>
+            <div class="righthead">
+             <img  id="copy1"src="copy.svg" alt="copy" class="hovereffect">
+            </div>
+        </div>
+        <textarea id="htmltext" spellcheck="false"></textarea>
+    </div>
+
+    <div class="cssbox codebox">
+        <div class="head">
+            <div class="lefthead">
+              <img src="css.png" alt="htmlpic" height="25px">
+             CSS
+            </div>
+            <div class="righthead">
+              <img id="copy2" src="copy.svg" alt="copy" class="hovereffect">
+            </div>
+        </div>
+        <textarea id="csstext" spellcheck="false"></textarea>
+    </div>
+
+    <div class="jsbox codebox">
+        <div class="head">
+            <div class="lefthead">
+              <img src="js.png" alt="htmlpic" height="25px">
+             JS
+            </div>
+            <div class="righthead">
+              <img id="copy3" src="copy.svg" alt="copy" class="hovereffect">
+            </div>
+        </div>
+        <textarea id="jstext" spellcheck="false"></textarea>
+    </div>
+
+  </div>
+  <div class="outputbox">
+    <div class="outputhead">
+      <h4>Output</h4>
+      <img id="save" src="save.svg" alt="save" class="hovereffect">
+      <img id="up" src="up.svg" alt="up" class="hovereffect">
+    </div>
+
+    <iframe id="output"></iframe>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
